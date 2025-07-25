@@ -1,4 +1,8 @@
-# VLIN-RL
-VLIN-RL: A Unified Vision-Language Interpreter and Reinforcement Learning Motion Planner Framework for Robot Dynamic Tasks
-# demo video of the paper
+# VLIN-RL: A Unified Vision-Language Interpreter and Reinforcement Learning Motion Planner Framework for Robot Dynamic Tasks
+Zewu Jiang, Junnan Zhang, Ke Wang, Chenyi Si\
+# Abstract
+Recently, with the development of Large Language Models (LLMs), Embodied AI represented by Vision-Language-Action Models (VLAs) has played a significant role in realizing the natural language interaction between humans and robots. Current VLA models can process and understand visual information and language instructions, while guiding robots to complete interactive tasks with the environment based on human language instructions. However, when tackling with the real-time and dynamic tasks, VLA has poor robustness and real-time planning and adjustment ability against changes in target objects, instructions, and environments. To handles these limitations, we propose VLIN-RL, a unified framework that consists of the Vision-Language Interpreter (VLIN) that owns excellent vision language information understanding and advanced task planning abilities and reinforcement learning (RL)-based motion planner with enhanced flexibility and broader applicability. If the environmental state changes during task execution, the RL planning module in VLIN-RL will directly make dynamic adjustments at the subtask level based on visual feedback to achieve the task goals, without the need for time-consuming information processing from VLIN. Experiments demonstrate that our model can complete multi-robot manipulation tasks more efficiently and stably. Finally, our work is verified by the pick-grasp tasks and real manipulators experiments.
+# Paper
+https://github.com/user-attachments/files/21434242/papercode.pdf
+# Demo video of the paper
 https://github.com/user-attachments/assets/911bd78d-9dfa-4dd7-aabd-3797064eb816
